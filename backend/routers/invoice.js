@@ -11,7 +11,7 @@ Router.post('/',async (req,res)=>{
         })
         const {data} = await axios.get("https://api.textlocal.in/send/",{
             params:{
-                apikey:"NSGroYZTezo-Yqep4HL92jf5ajj75Un1LSgg0wR8T2",
+                apikey:${{ secrets.TEXTLOCALAPI }},
                 test:true,
                 message:"test message",
                 sender:"Rohit",
