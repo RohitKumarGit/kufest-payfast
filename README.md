@@ -1,23 +1,27 @@
 # kufest-payfast
+You can directly view the app at : https://kufest.herokuapp.com/
 
-## Project setup
+Steps To run Locally :
+
+Clone the repo and move to the directory
+
+## Install all packages
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Start the front End
 ```
 npm run serve
 ```
+### move to back end folder
+```
+cd backend
+```
 
-### Compiles and minifies for production
+### Start Back end server
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+node app.js
 ```
 
 ### Customize configuration
